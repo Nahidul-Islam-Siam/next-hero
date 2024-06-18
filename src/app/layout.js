@@ -13,9 +13,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-   {/* <Navbar/> */}
+   <Navbar/>
         <div className=""> 
-        {/* {children} */}
+        {children}
         </div>
       
         <footer className="bg-blue-400">This is my footer</footer>

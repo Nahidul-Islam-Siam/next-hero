@@ -1,11 +1,12 @@
+'use client'
 import React from 'react';
 
-const page = () => {
+const Error = () => {
     return (
         <div>
-            Special Blog
+            404 Error
         </div>
     );
 };
 
-export default page;
+export default Error;
